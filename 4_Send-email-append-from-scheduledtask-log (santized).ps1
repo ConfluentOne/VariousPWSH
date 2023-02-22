@@ -5,12 +5,12 @@
         Runs in conjunction with task scheduler, if event 101 or 203 from Microsoft-Windows-TaskScheduler/Operational
 is captured in event log, this email fires. Logging enabled in $Log variable
     .AUTHOR
-		Dexter Yap
-    .LOGIC
+		
+.LOGIC
         If event $EventId captured, send email and log event in $log variable
-    .FUNCTIONS
+ .FUNCTIONS
 
-	.VERSION
+.VERSION
         1.1
 ----------------------------------#>
 
